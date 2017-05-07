@@ -1,5 +1,5 @@
 # RapidCommand BETA
-
+### Windows only
 
 Hotkey for opening cmd, contextual to wherever you are!
 
@@ -9,11 +9,7 @@ If the hotkey is pressed anywhere that the program cannot trace the path, it wil
 To run, simple run the exe found in Release. It runs as a background process but its lifespan dies when you either: 
 turn the PC off or end its process in the task manager.
 
-Future features include:
-<ul>
-<li>- Easier builds</li>
-<li>- Run automatically on startup</li>
-</ul>
+For making sure this application runs automatically on startup simply place a copy of the exe file into your windows startup folder
 
 To change the hotkey to one of your choice you need to change the hex key in the keys.h header file 
 by either changing the hex value or replacing the hex value with one of the VK key constants,
