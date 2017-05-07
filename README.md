@@ -3,7 +3,7 @@
 
 Hotkey for opening cmd, contextual to wherever you are!
 
-If you are in File Explorer, pressing home (default hotkey) will open the cmd at your location!
+If you are in File Explorer, pressing home (default hotkey) will open the cmd at your current directory location!
 If the hotkey is pressed anywhere that the program cannot trace the path, it will open up the cmd at root.
 
 To run, simple run the exe found in Release. It runs as a background process but its lifespan dies when you either: 
