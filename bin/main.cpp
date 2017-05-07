@@ -1,9 +1,9 @@
 #include<Windows.h>
 #include<iostream>
 #include<vector>
-#include "headers/keys.h"
-#include "headers/CommandHandle.h"
-#include "headers/FileExplorerHandler.h"
+#include "../headers/keys.h"
+#include "../headers/CommandHandle.h"
+#include "../headers/FileExplorerHandler.h"
 
 #define IS_DOWN 0x0001
 
