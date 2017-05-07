@@ -12,7 +12,7 @@ turn the PC off or end its process in the task manager.
 Future features include:
 <ul>
 <li>- Easier builds</li>
-<li>- Runs automatically on startup</li>
+<li>- Run automatically on startup</li>
 </ul>
 
 To change the hotkey to one of your choice you need to change the hex key in the keys.h header file 
