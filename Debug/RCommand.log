@@ -1,6 +1,0 @@
-﻿  main.cpp
-main.cpp(60): warning C4018: '<': signed/unsigned mismatch
-  FileExplorerHandler.cpp
-  Generating Code...
-  RCommand.vcxproj -> C:\Users\Luke\Desktop\Programming things\RapidCommand\Debug\RCommand.exe
-  RCommand.vcxproj -> C:\Users\Luke\Desktop\Programming things\RapidCommand\Debug\RCommand.pdb (Full PDB)
