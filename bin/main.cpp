@@ -14,7 +14,9 @@ int main(){
   HWND windowHandler;
   SetConsoleTitle("CommandHotkey");
   windowHandler = FindWindowA(NULL,"CommandHotkey");
+  //MSDN suggests calling showwindow twice to guarantee hiding the window
   ShowWindow(windowHandler,SW_HIDE);
+  ShowWindow(windowHandler, SW_HIDE);
 
   //window details
   WINDOWPLACEMENT windowStatusStruct;
@@ -26,6 +28,7 @@ int main(){
 	uint32_t windowStatus = windowStatusStruct.showCmd;
 	if (windowStatus != SW_HIDE) {
 		ShowWindow(windowHandler, SW_HIDE);
+    ShowWindow(windowHandler, SW_HIDE);
 	}
 
     uint16_t keyStatus = GetAsyncKeyState(key);
