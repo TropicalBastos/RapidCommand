@@ -1,4 +1,4 @@
-# RapidCommand BETA
+# RapidCommand
 ### Windows only
 
 Hotkey for opening cmd, contextual to wherever you are!
